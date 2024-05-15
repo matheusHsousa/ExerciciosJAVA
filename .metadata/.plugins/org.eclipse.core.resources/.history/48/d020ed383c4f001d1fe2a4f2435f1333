@@ -1,0 +1,11 @@
+package fundamentos;
+
+public class CalcTemp {
+	public static void main(String[] args) {
+		double TempF = 10;
+		double TempC = (TempF - 32)/1.8;
+		
+		System.out.println(TempC);
+	}
+
+}

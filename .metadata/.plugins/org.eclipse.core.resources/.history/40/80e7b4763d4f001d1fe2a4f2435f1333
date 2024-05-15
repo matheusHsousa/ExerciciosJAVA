@@ -1,0 +1,13 @@
+package fundamentos;
+
+public class CalcTemp {
+	public static void main(String[] args) {
+		double TempF = 86;
+		final int sub = 32;
+		final double div = 5/9.0;
+		double TempC = (TempF - sub)*div;
+		
+		System.out.println("o resultado é: °C" + TempC);
+	}
+
+}

@@ -1,0 +1,12 @@
+package fundamentos;
+
+public class TipoString {
+	public static void main(String[] args) {
+		System.out.println("Hello World".charAt(6)); // chama o a letra do numero
+		
+		String boa = "Boa Tarde";
+		System.out.println(boa.concat("!!!"));
+		System.out.println(boa + "!!!");
+	}
+
+}
